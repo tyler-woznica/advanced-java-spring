@@ -1,7 +1,5 @@
 package com.codingnomads.ioc.lab.initial;
 
-
-import org.apache.catalina.core.ApplicationContext;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
