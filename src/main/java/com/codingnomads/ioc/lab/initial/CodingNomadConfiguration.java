@@ -22,4 +22,10 @@ public class CodingNomadConfiguration {
     public JDK jdk() {
         return JDK.builder().name("OpenJDK").version("17").build();
     }
+
+    @Bean
+    public Computer computer() {return Computer.builder().brand("Lenovo").ram(16).build();}
+
+    @Bean
+    public Desk desk() {return Desk.builder().brand("Standerd").height(80).build();}
 }

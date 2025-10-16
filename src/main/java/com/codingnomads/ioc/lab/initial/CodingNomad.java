@@ -12,6 +12,8 @@ public class CodingNomad {
     private final JDK jdk;
     private final IDE ide;
     private final Framework framework;
+    private final Computer computer;
+    private final Desk desk;
 
     public String createAwesomeSoftware() {
         return MessageFormat.format(
@@ -23,6 +25,17 @@ public class CodingNomad {
                 jdk.getVersion(),
                 framework.getName(),
                 framework.getVersion()
+        );
+    }
+
+    public String setupDesk() {
+        return MessageFormat.format(
+                "This coding nomad is using a sweet desk setup using, " +
+                        "Computer: ({0}:{1}), Desk: ({2}:{3})",
+                computer.getBrand(),
+                computer.getRam(),
+                desk.getBrand(),
+                desk.getHeight()
         );
     }
 
