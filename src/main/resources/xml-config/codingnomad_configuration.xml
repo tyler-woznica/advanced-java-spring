@@ -18,5 +18,9 @@
         <property name="name" value="OpenJDK"/>
         <property name="version" value="17"/>
     </bean>
+    <bean id="computer" class="com.codingnomads.corespring.examples.application_context.xml.Computer">
+        <property name="brand" value="Lenovo"/>
+        <property name="model" value="ThinkPad X260"/>
+    </bean>
 
 </beans>
