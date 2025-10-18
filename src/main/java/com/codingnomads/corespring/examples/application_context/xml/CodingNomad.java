@@ -11,6 +11,7 @@ public class CodingNomad {
     private final JDK jdk;
     private final IDE ide;
     private final Framework framework;
+    private final Computer computer;
 
     public String createAwesomeSoftware() {
         return MessageFormat.format(
@@ -22,5 +23,7 @@ public class CodingNomad {
                 jdk.getVersion(),
                 framework.getName(),
                 framework.getVersion());
+                computer.getBrand();
+                computer.getModel();
     }
 }
