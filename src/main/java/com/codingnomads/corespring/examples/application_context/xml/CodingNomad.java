@@ -16,14 +16,13 @@ public class CodingNomad {
     public String createAwesomeSoftware() {
         return MessageFormat.format(
                 "This coding nomad is creating awesome software using, "
-                        + "IDE:({0}:{1}), JDK: ({2}:{3}), Framework:({4}:{5})",
+                        + "IDE:({0}:{1}), JDK: ({2}:{3}), Framework:({4}:{5})" +
+                        "Computer: " + computer.toString(),
                 ide.getName(),
                 ide.getVersion(),
                 jdk.getName(),
                 jdk.getVersion(),
                 framework.getName(),
                 framework.getVersion());
-                computer.getBrand();
-                computer.getModel();
     }
 }
