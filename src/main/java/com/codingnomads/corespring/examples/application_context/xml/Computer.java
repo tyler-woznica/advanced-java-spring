@@ -8,5 +8,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Computer {
-
+    private final String brand;
+    private final String model;
 }
