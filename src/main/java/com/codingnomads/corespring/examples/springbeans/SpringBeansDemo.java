@@ -12,5 +12,7 @@ public class SpringBeansDemo {
         System.out.println(
                 "Spring Developer Address: " + springDeveloper.getAddress().getStreetNumber() + " "
                         + springDeveloper.getAddress().getStreet());
+        System.out.println("Dev's Computer: " + springDeveloper.getComputer().getBrand() + " "
+                        + springDeveloper.getComputer().getModel());
     }
 }
