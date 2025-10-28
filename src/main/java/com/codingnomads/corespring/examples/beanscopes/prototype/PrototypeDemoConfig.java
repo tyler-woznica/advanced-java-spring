@@ -12,4 +12,8 @@ public class PrototypeDemoConfig {
     public SpringBean springBean() {
         return new SpringBean();
     }
+
+    public SpringBeen springBeen() {
+        return new SpringBeen();
+    }
 }
