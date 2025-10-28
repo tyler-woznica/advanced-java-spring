@@ -13,6 +13,8 @@ public class PrototypeDemoConfig {
         return new SpringBean();
     }
 
+    @Bean
+    @Scope(value = "prototype")
     public SpringBeen springBeen() {
         return new SpringBeen();
     }
